@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="jogo da velha">
+  <meta name="author"
+    content="Feh-Lipe-Dev, https://www.linkedin.com/in/feh-lipe-dev/, https://github.com/Feh-Lipe-Dev">
+  <meta name="keywords" content="projeto, iniciante, html, css, javascript, js, jogo, velha,">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/style.css">
+
+  <title># Jogo Da Velha #</title>
+</head>
+
+<body>
+  <h1>### Jogo da Velha ###</h1>
+
+  <div>
+    <div id="1" class="squareClass" onclick="squareClick(this.id)">-</div>
+    <div id="2" class="squareClass" onclick="squareClick(this.id)">-</div>
+    <div id="3" class="squareClass" onclick="squareClick(this.id)">-</div>
+  </div>
+
+  <div>
+    <div id="4" class="squareClass" onclick="squareClick(this.id)">-</div>
+    <div id="5" class="squareClass" onclick="squareClick(this.id)">-</div>
+    <div id="6" class="squareClass" onclick="squareClick(this.id)">-</div>
+  </div>
+
+  <div>
+    <div id="7" class="squareClass" onclick="squareClick(this.id)">-</div>
+    <div id="8" class="squareClass" onclick="squareClick(this.id)">-</div>
+    <div id="9" class="squareClass" onclick="squareClick(this.id)">-</div>
+  </div>
+
+  <div class="player">
+    <label for="">Jogador:</label>
+    <label id="player-selected" for=""></label>
+  </div>
+
+  <div class="winner">
+    <label for="">Vencedor:</label>
+    <label id="winner-selected" for=""></label>
+  </div>
+
+  <div>
+    <button onclick="reset()">
+      Reiniciar
+    </button>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html> 
